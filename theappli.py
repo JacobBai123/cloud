@@ -10,7 +10,6 @@ users_data = {}
 def registration_page():
     return render_template('registration.html')
 
-
 @app.route('/register', methods=['POST'])
 def register_user():
     # Get user data from the registration form
